@@ -4,13 +4,13 @@
             <tbody>
                 <thead>
                     <tr>
-                    <th class="w-64"></th>
-                    <th class="w-[32rem]"></th>
+                        <th class="w-64"></th>
+                        <th class="w-[32rem]"></th>
                     </tr>
                 </thead>
                 <tr>
                     <td class="tg-0lax">KODE REGISTRASI</td>
-                    <td class="tg-0lax">$id</td>
+                    <td class="tg-0lax">{{$nomor_registrasi}}</td>
                 </tr>
                 <tr>
                     <td class="tg-0lax">TOTAL HARGA</td>

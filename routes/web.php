@@ -65,8 +65,8 @@ Route::post('/event/mlc/register/confirmation', [RegistrationController::class, 
 // Route::post('/event/mlc/register/confirmation', function () {
 //     return view('event.mlc.registration.confirmation');
 // });
-Route::get('/event/mlc/register/success', function () {
-    return view('event.mlc.registration.success');
+Route::get('/event/mlc/register/success/{nomor_registrasi}', function ($nomor_registrasi) {
+    return view('event.mlc.registration.success', compact('nomor_registrasi'));
 });
 
 Route::get('/event/mlc/verifikasipembayaran', function () {

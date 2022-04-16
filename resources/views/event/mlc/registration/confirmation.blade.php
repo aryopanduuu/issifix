@@ -10,5 +10,6 @@
 @include('components.mlc_register_confirmation')
 @endsection
 
+@section('footer')
 @include('components.footer')
 @endsection

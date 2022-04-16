@@ -67,18 +67,16 @@ class RegistrationController extends Controller
         $payment->pembayaranBaru($req, $regis->id);
 
         $dataInvoice = Registration::select(
-            'registrations.nomor_registrasi',
-            'py.id as payment_id',
+            'registrations.*',
             'py.total',
             'py.kode_unik',
-            'ps.kelas',
-            'ps.tim'
         )
-            ->join('payments as py', 'registrations.id', 'py.registrations_id')
-            ->join('pesertas as ps', 'registrations.id', 'ps.registrations_id')
+            ->join('payments as py', 'registrations.id', 'py.registration_id')
+            // ->join('pesertas as ps', 'registrations.id', 'ps.registration_id')
+            ->where('registrations.id', $regis->id)
             ->get();
 
-        return view('invoice', compact('dataInvoice')); // tampilkan invoice
+        return view('event.mlc.registration.confirmation', compact('dataInvoice')); // tampilkan invoice
     }
 
     public function registrasiBaru()
