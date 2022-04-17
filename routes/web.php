@@ -36,6 +36,10 @@ Route::middleware(['auth', 'admin'])->group(function () {
 //     Route::post('/konfirmasi-pembayaran/store', [RegistrationController::class, 'konfirmasiPembayaran'])->name('konfirmasi.pembayaran.store');
 // });
 
+// Profile
+Route::get('/profile', function () {
+    return view('profile');
+});
 
 // News
 Route::get('/news', function () {
@@ -50,6 +54,7 @@ Route::get('/news/2', function () {
 Route::get('/event', function () {
     return view('event');
 });
+
 // Event MLC
 Route::get('/event/mlc', function () {
     return view('event.mlc.mlc');
@@ -83,4 +88,9 @@ Route::get('/event/mlc/bookingstatus', function () {
 
 Route::get('/event/mlc/regulation', function () {
     return view('event.mlc.regulation.regulation');
+});
+
+// Gallery
+Route::get('/gallery', function () {
+    return view('maintenance');
 });

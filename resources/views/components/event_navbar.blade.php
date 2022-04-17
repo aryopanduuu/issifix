@@ -1,5 +1,6 @@
 <div>
-    <img src="{{ asset('assets/head-kom.png') }}" alt="" class="lg:h-[450px] w-full object-cover h-40 object-top" />
+    <img src="{{ asset('assets/mobile_mlc_head.jpg') }}" alt="" class="w-full lg:hidden" />
+    <img src="{{ asset('assets/lg_mlc_head.jpg') }}" alt="" class="w-full hidden lg:block" />
     <!-- Navbar -->
     <nav class="bg-white text-biru border-b-2 border-b-biru lg:border-t-2 lg:border-t-biru lg:my-2">
         <!-- container -->
@@ -27,8 +28,8 @@
                     <li>
                         <a href="/event/mlc/verifikasipembayaran" class="flex w-full space-y-2 lg:w-auto lg-flex-row lg:space-y-0">Payment Confirmation</a>
                     </li>
-                    <li>
-                        <a href="#" class="flex w-full space-y-2 lg:w-auto lg-flex-row lg:space-y-0">Booking Status</a>
+                    <li class="hidden">
+                        <a href="" class="flex w-full space-y-2 lg:w-auto lg-flex-row lg:space-y-0">Booking Status</a>
                     </li>
                 </ul>
             </div>

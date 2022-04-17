@@ -1,4 +1,4 @@
-<form class="lg:mx-44 mx-4 my-4" method="POST" action="/event/mlc/register/confirmation">
+<form class="lg:mx-32 mx-4 my-4" method="POST" action="/event/mlc/register/confirmation">
     @csrf
     <div class="lg:grid lg:grid-cols-2 gap-8">
         <div>

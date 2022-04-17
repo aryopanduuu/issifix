@@ -1,28 +1,22 @@
-<div class="bg-biru mx-32 rounded-lg my-4">
+<div class="bg-biru lg:mx-32 mx-4 rounded-lg my-4 text-white">
     <div class="mx-8 py-8">
-        <table class="table-fixed font-Montserrat font-bold text-xl   text-white">
-            <tbody>
-                <thead>
-                    <tr>
-                        <th class="w-64"></th>
-                        <th class="w-[32rem]"></th>
-                    </tr>
-                </thead>
-                <tr>
-                    <td class="tg-0lax">KODE REGISTRASI</td>
-                    <td class="tg-0lax">{{$nomor_registrasi}}</td>
-                </tr>
-                <tr>
-                    <td class="tg-0lax">TOTAL HARGA</td>
-                    <td class="tg-0lax">$Harga</td>
-                </tr>
-            </tbody>
-        </table>
+        <div class="grid grid-cols-2 font-Montserrat font-bold text-xl">
+            <div>KODE REGISTRASI</div>
+            <div>{{$nomor_registrasi}}</div>
+        </div>
+        <div class="grid grid-cols-2 font-Montserrat font-bold text-xl">
+            <div>TOTAL HARGA</div>
+            <div>Rp. 750.000</div>
+        </div>
         <div class="text-white font-Montserrat text-base font-semibold mt-8">
             <h1>Silahkan melakukan pembayaran melalui transfer ke Rekening berikut</h1>
-            <ul class="my-4">
-                <li>BCA : a.n. ANJAS KURNIAWAN 123456789</li>
-                <li>MANDIRI : a.n. ANJAS KURNIAWAN 123456789</li>
+            <ul class="my-4 mx-8">
+                <li>BCA</li> 
+                <li>Faizal Rachman </li>
+                <li class="font-normal">260282961</li>
+                <li class="mt-4">Mandiri</li> 
+                <li>Faizal Rachman </li>
+                <li class="font-normal">1710068466666</li>
             </ul>
             <h1>Simpan kode registrasi dan bukti pembayaran, dan lakukan verifikasi pembayaran</h1>
         </div>

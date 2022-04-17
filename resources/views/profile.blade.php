@@ -5,8 +5,8 @@
 @endsection
 
 @section('content')
-    @include('components.event_navbar')
-    @include('components.mlc_about')
+    @include('components.profile_card')
+    @include('components.profile_body')
 @endsection
 
 @section('footer')
