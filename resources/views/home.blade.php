@@ -5,7 +5,8 @@
 @endsection
 
 @section('content')
-    @include('components.hero')
+@include('components.hero')
+@include('components.sponsor')
 @endsection
 
 @section('footer')

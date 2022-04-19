@@ -65,8 +65,8 @@
                 Seluruh peserta wajib menggunakan jersey dan starter kit yang telah disediakan oleh panitia. Tidak diperkenankan memakai jersey dan starter kit diluar yang disediakan panitia dengan alasan apapun.
                 Jika terdapat peserta yang tidak memiliki kelengkapan kegiatan seperti jersey dan starter kit sesuai dengan ketentuan yang berlaku selama kegiatan MADIUN - LAWU CHALLENGE 2022, maka peserta tersebut akan dikeluarkan dari rombongan peserta MADIUN - LAWU CHALLENGE 2022 dan dilarang melanjutkan kegiatan.
                 </p>
-                <li class="font-semibold">Batas Waktu Bersepeda</li>
-                <p>Batas waktu untuk seluruh peserta adalah pukul satu siang / (13.00 WIB) sudah sampai di garis finish Cemoro Sewu.</p>
+                <li class="font-semibold hidden">Batas Waktu Bersepeda</li>
+                <p class="hidden">Batas waktu untuk seluruh peserta adalah pukul satu siang / (13.00 WIB) sudah sampai di garis finish Cemoro Sewu.</p>
                 <li class="font-semibold">Asuransi</li>
                 <p>Seluruh peserta kegiatan MADIUN - LAWU CHALLENGE 2022 diasuransikan selama pelaksanaan dengan batas waktu (1 x 24 jam).</p>
                 <li class="font-semibold">Makanan dan Minuman</li>

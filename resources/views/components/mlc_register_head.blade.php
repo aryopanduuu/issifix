@@ -3,7 +3,6 @@
         <div class="grid grid-cols-3 mx-4 lg:mx-8 flex items-center gap-2">
             <div class="col-span-2">
                 <h1 class="font-Montserrat font-bold text-base lg:text-3xl text-white">Registration MLC 2022</h1>
-                <h1 class="font-Montserrat font-bold text-base lg:text-3xl text-white">King/Queen of Mountain</h1>
                 <p class="font-SourceSansPro text-[10px] lg:text-sm text-white mt-1">isi sesuai dengan data di kartu identitas</p>
             </div>
             <div class="">

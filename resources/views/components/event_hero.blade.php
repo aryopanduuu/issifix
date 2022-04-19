@@ -11,7 +11,7 @@
             <div class="text-center">
                 <img src="{{ asset('assets/criteriumlogo.png') }}" alt="" class="w-48 mx-auto">
                 <button class="bg-biru px-6 py-1 rounded-md mt-4">
-                    <a href="/event/criterium" class="text-white font-SourceSansPro font-bold text-base">SUBMIT</a>
+                    <a href="/maintenance" class="text-white font-SourceSansPro font-bold text-base">SUBMIT</a>
                 </button>
             </div>
         </div>
@@ -31,7 +31,7 @@
             <div class="text-center">
                 <img src="{{ asset('assets/criteriumlogo.png') }}" alt="" class="w-48 mx-auto">
                 <button class="bg-biru px-6 py-1 rounded-md mt-4 hover:bg-blue-900 ease-in-out duration-200">
-                    <a href="/event/mlc" class="text-white font-SourceSansPro font-bold text-base">SUBMIT</a>
+                    <a href="/maintenance" class="text-white font-SourceSansPro font-bold text-base">SUBMIT</a>
                 </button>
             </div>
         </div>

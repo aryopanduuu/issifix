@@ -65,7 +65,6 @@ Route::get('/event/mlc/register', function () {
 });
 
 
-
 Route::post('/event/mlc/register/confirmation',[RegistrationController::class, 'registrasi']);
 // Route::post('/event/mlc/register/confirmation', function () {
 //     return view('event.mlc.registration.confirmation');
@@ -92,5 +91,10 @@ Route::get('/event/mlc/regulation', function () {
 
 // Gallery
 Route::get('/gallery', function () {
+    return view('maintenance',['title' => 'Gallery']);
+});
+
+// Gallery
+Route::get('/maintenance', function () {
     return view('maintenance',['title' => 'Gallery']);
 });

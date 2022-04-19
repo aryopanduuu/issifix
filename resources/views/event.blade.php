@@ -6,6 +6,7 @@
 
 @section('content')
     @include('components.event_hero')
+    @include('components.sponsor')
 @endsection
 
 @section('footer')

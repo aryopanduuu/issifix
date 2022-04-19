@@ -1,6 +1,7 @@
 <div>
     <img src="{{ asset('assets/mobile_mlc_head.jpg') }}" alt="" class="w-full lg:hidden" />
     <img src="{{ asset('assets/lg_mlc_head.jpg') }}" alt="" class="w-full hidden lg:block" />
+    @include('components.sponsor')
     <!-- Navbar -->
     <nav class="bg-white text-biru border-b-2 border-b-biru lg:border-t-2 lg:border-t-biru lg:my-2">
         <!-- container -->
