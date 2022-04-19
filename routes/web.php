@@ -91,10 +91,15 @@ Route::get('/event/mlc/regulation', function () {
 
 // Gallery
 Route::get('/gallery', function () {
-    return view('maintenance',['title' => 'Gallery']);
+    return view('gallery',['title' => 'Gallery']);
 });
 
 // Gallery
 Route::get('/maintenance', function () {
     return view('maintenance',['title' => 'Gallery']);
+});
+
+// Gallery
+Route::get('/admin', function () {
+    return view('admin.admin');
 });
