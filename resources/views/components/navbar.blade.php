@@ -3,7 +3,7 @@
     <!-- container -->
     <div class="flex flex-wrap mx-4 lg:space-x-4 py-4 lg:justify-between lg:mx-8">
     <!-- Navbar Brand -->
-        <a href="#" class="inline-flex text-2xl font-bold  font-Montserrat text-white uppercase space-x-2 lg:text-4xl items-center">
+        <a href="/" class="inline-flex text-2xl font-bold  font-Montserrat text-white uppercase space-x-2 lg:text-4xl items-center">
             <img src="{{ asset('assets/logo/issi.png') }}" class="h-8 lg:h-12 lg:block hidden" />
             <span>ISSI KOTA MADIUN</span>
         </a>

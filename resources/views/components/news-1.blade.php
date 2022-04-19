@@ -1,4 +1,4 @@
-<div class="lg:grid lg:grid-cols-4 gap-2 lg:my-8 my-4 mx-4 lg:mx-0">
+<div class="lg:grid lg:grid-cols-4 gap-4 lg:my-16 my-4 mx-4 lg:mx-0">
     <div class="bg-abumuda">
         <img src="{{ asset('assets/berita/berita-1.jpg') }}" alt="" class="h-48 w-full object-cover">
         <div class="mx-4 my-4">
@@ -6,7 +6,7 @@
             <p class="font-SourceSansPro font-normal text-xs  mt-4 h-28 overflow-hidden">MADIUN – Perhatian Pemerintah Kota Madiun bukan hanya kepada atlet. Tetapi juga untuk pelatih. Hal itu diungkapkan Oni Diar Akhyanto, pelatih tim sepak takraw putra Pemprov Jawa Timur. Guru olahraga SMPN 7 Kota Madiun itu
                 juga mendapat banyak dukungan dari Pemkot Madiun.</p>
             <button class="bg-merah py-1 px-2 lg:mt-4">
-                <a href="#" class="text-white text-xs">Lanjutkan Membaca</a>
+                <a href="https://madiuntoday.id/2021/10/18/kisah-oni-diar-antar-cabor-sepak-takraw-jatim-raih-emas-dan-perak-pon-papua/" class="text-white text-xs">Lanjutkan Membaca</a>
             </button>
         </div>
     </div>
@@ -17,7 +17,7 @@
             <p class="font-SourceSansPro font-normal text-xs  mt-4 h-28 overflow-hidden">MADIUN – Prestasi membanggakan berhasil diraih oleh atlet naungan Ikatan Sport Sepeda Indonesia (ISSI) Kota Madiun. Yakni, dalam ajang Wali Kota Cup kategori Road Bike di Surabaya dan Kejuaraan Downhill Challenge Open di
                 Probolinggo yang diikuti oleh atlet dari berbagai daerah di Indonesia, Minggu (12/12).</p>
             <button class="bg-merah py-1 px-2 mt-4">
-                <a href="#" class="text-white text-xs">Lanjutkan Membaca</a>
+                <a href="https://madiuntoday.id/2021/12/13/atlet-issi-kota-madiun-raih-prestasi-di-kejuaraan-sepeda-tingkat-nasional/" class="text-white text-xs">Lanjutkan Membaca</a>
             </button>
         </div>
     </div>
@@ -27,7 +27,7 @@
             <h1 class="font-Montserrat font-bold text-sm h-16">Atlet Kota Madiun Moncer Di PON XX Papua</h1>
             <p class="font-SourceSansPro font-normal text-xs  mt-4 h-28 overflow-hidden">MADIUN – Prestasi membanggakan berhasil diraih oleh atlet naungan Ikatan Sport Sepeda Indonesia (ISSI)Kota Madiun. Yakni, dalam ajang Wali Kota Cup kategori Road Bike di Surabaya dan Kejuaraan Downhill Challenge Open di Probolinggo yang diikuti oleh atlet dari berbagai daerah di Indonesia,</p>
             <button class="bg-merah py-1 px-2 mt-4">
-                <a href="#" class="text-white text-xs">Lanjutkan Membaca</a>
+                <a href="https://madiuntoday.id/2021/10/11/atlet-kota-madiun-moncer-di-pon-xx-papua/" class="text-white text-xs">Lanjutkan Membaca</a>
             </button>
         </div>
     </div>
@@ -37,11 +37,11 @@
             <h1 class="font-Montserrat font-bold text-sm h-16">Kapolri Resmi Dilantik Jadi Ketua Umum PB ISSI, Janjikan Bangun Trek di Perkotaan</h1>
             <p class="font-SourceSansPro font-normal text-xs  mt-4 h-28 overflow-hidden">GALAMEDIA - Ketua Umum KONI Pusat Marciano Norman resmi melantik Listyo Sigit Prabowo sebagai Ketua Umum Pengurus Besar Ikatan Sport Sepeda Indonesia (ISSI) masa bakti 2021-2025 di Jakarta, Sabtu, 11 Desember 2021.</p>
             <button class="bg-merah py-1 px-2 mt-4">
-                <a href="#" class="text-white text-xs">Lanjutkan Membaca</a>
+                <a href="https://galamedia.pikiran-rakyat.com/news/pr-353210950/kapolri-resmi-dilantik-jadi-ketua-umum-pb-issi-janjikan-bangun-trek-di-perkotaan" class="text-white text-xs">Lanjutkan Membaca</a>
             </button>
         </div>
     </div>
 </div>
-<button class="bg-abu py-1 px-4 m-4">
+<button class="bg-abu py-1 px-4 m-8">
     <a href="/news/2" class="font-SourceSansPro text-white">Lanjut</a>
 </button>

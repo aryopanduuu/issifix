@@ -16,3 +16,5 @@ mix.js("resources/js/app.js", "public/js").postCss(
     "public/css",
     [require("tailwindcss")]
 );
+
+mix.copyDirectory("node_modules/lightgallery/fonts", "public/fonts");
