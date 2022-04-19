@@ -12,12 +12,14 @@
     <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('assets/favicon.ico') }}">
     <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('/favicon-16x16.png') }}">
     <link rel="manifest" href="{{ asset('/site.webmanifest') }}">
+    
     <title>ISSI KOTA MADIUN | {{ $title }}</title>
 </head>
 <body class="lg:mx-20">
     @yield('navbar')
     @yield('content')
     @yield('footer')
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="{{ asset('js/navbar.js') }}"></script>
     <script src="{{ asset('js/swiper-bundle.min.js') }}"></script>
