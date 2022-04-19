@@ -4,12 +4,14 @@
         <div class="lg:grid lg:grid-cols-2 gap-0 bg-putih rounded-2xl shadow-2xl p-8 space-y-10">
             <div class="text-center">
                 <img src="{{ asset('assets/komlogo.png') }}" alt="" class="w-48 mx-auto">
+                <div class="text-biru font-SourceSansPro font-bold text-base mt-4">16 JULI 2022</div>
                 <button class="bg-biru px-6 py-1 rounded-md mt-4">
                     <a href="/event/mlc" class="text-white font-SourceSansPro font-bold text-base">SUBMIT</a>
                 </button>
             </div>
             <div class="text-center">
                 <img src="{{ asset('assets/criteriumlogo.png') }}" alt="" class="w-48 mx-auto">
+                <div class="text-biru font-SourceSansPro font-bold text-base mt-4">17 JULI 2022</div>
                 <button class="bg-biru px-6 py-1 rounded-md mt-4">
                     <a href="/maintenance" class="text-white font-SourceSansPro font-bold text-base">SUBMIT</a>
                 </button>
@@ -24,13 +26,15 @@
         <div class="grid grid-cols-2 gap-0 bg-putih rounded-2xl shadow-2xl p-8">
             <div class="text-center">
                 <img src="{{ asset('assets/komlogo.png') }}" alt="" class="w-48 mx-auto">
-                <button class="bg-biru px-6 py-1 rounded-md mt-4 hover:bg-blue-900 ease-in-out duration-200">
+                <div class="text-biru font-SourceSansPro font-bold text-base mt-4">16 JULI 2022</div>
+                <button class="bg-biru px-6 py-1 rounded-md mt-2 hover:bg-blue-900 ease-in-out duration-200">
                     <a href="/event/mlc" class="text-white font-SourceSansPro font-bold text-base">SUBMIT</a>
                 </button>
             </div>
             <div class="text-center">
                 <img src="{{ asset('assets/criteriumlogo.png') }}" alt="" class="w-48 mx-auto">
-                <button class="bg-biru px-6 py-1 rounded-md mt-4 hover:bg-blue-900 ease-in-out duration-200">
+                <div class="text-biru font-SourceSansPro font-bold text-base mt-4">17 JULI 2022</div>
+                <button class="bg-biru px-6 py-1 rounded-md mt-2 hover:bg-blue-900 ease-in-out duration-200">
                     <a href="/maintenance" class="text-white font-SourceSansPro font-bold text-base">SUBMIT</a>
                 </button>
             </div>
