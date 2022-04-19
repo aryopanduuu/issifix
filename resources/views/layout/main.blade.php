@@ -13,7 +13,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('/favicon-16x16.png') }}">
     <link rel="manifest" href="{{ asset('/site.webmanifest') }}">
     
-    <title>ISSI KOTA MADIUN | {{ $title }}</title>
+    <title>ISSI KOTA MADIUN</title>
 </head>
 <body class="lg:mx-20">
     @yield('navbar')

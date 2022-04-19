@@ -5,11 +5,11 @@
             <div>{{$nomor_registrasi}}</div>
         </div>
         <div class="grid grid-cols-2 font-Montserrat font-bold text-xl">
-            <div>TOTAL HARGA</div>
+            <div>TOTAL YANG DIBAYAR</div>
             <div>Rp. 750.000</div>
         </div>
         <div class="text-white font-Montserrat text-base font-semibold mt-8">
-            <h1>Silahkan melakukan pembayaran melalui transfer ke Rekening berikut</h1>
+            <h1>Silahkan melakukan pembayaran melalui transfer ke Rekening berikut. Jangan lupa 3 angka yang ada di belakang total harga.</h1>
             <ul class="my-4 mx-8">
                 <li>BCA</li> 
                 <li>Faizal Rachman </li>
