@@ -17,35 +17,40 @@
                 <th scope="col" class="px-6 py-3 whitespace-nowrap">KTP</th>
             </tr>
         </thead>
+        @foreach ($data as $regis)
         <tbody>
+            
+                
+            
             <tr class="border-b dark:bg-gray-800 dark:border-gray-700 odd:bg-white even:bg-gray-50 odd:dark:bg-gray-800 even:dark:bg-gray-700">
                     <td scope="row" class="px-6 py-4 font-medium text-gray-900 dark:text-white whitespace-nowrap">
-                    MLC0001</td>
+                    {{ $regis->nomor_registrasi }}</td>
                     <td scope="row" class="px-6 py-4 font-normal text-gray-900 dark:text-white whitespace-nowrap">
-                    Anjas Kurniawan</td>
+                        {{ $regis->nama_lengkap }}</td>
                     <td scope="row" class="px-6 py-4 font-normal text-gray-900 dark:text-white whitespace-nowrap">
-                    Madiun</td>
+                        {{ $regis->tempat_lahir }}</td>
                     <td scope="row" class="px-6 py-4 font-normal text-gray-900 dark:text-white whitespace-nowrap">
-                    2000-02-21</td>
+                        {{ $regis->tanggal_lahir }}</td>
                     <td scope="row" class="px-6 py-4 font-normal text-gray-900 dark:text-white whitespace-nowrap">
-                    Laki-Laki</td>
+                        {{ $regis->jenis_kelamin }}</td>
                     <td scope="row" class="px-6 py-4 font-normal text-gray-900 dark:text-white whitespace-nowrap">
-                    Pendekar A</td>
+                        {{ $regis->tim }}</td>
                     <td scope="row" class="px-6 py-4 font-normal text-gray-900 dark:text-white whitespace-nowrap">
-                    BEESER</td>
+                        {{ $regis->kelas }}</td>
                     <td scope="row" class="px-6 py-4 font-normal text-gray-900 dark:text-white whitespace-nowrap">
-                    anjaskurniawan737@gmail.com</td>
+                        {{ $regis->email}}</td>
                     <td scope="row" class="px-6 py-4 font-normal text-gray-900 dark:text-white whitespace-nowrap">
-                    Madiun</td>
+                        {{ $regis->kota }}</td>
                     <td scope="row" class="px-6 py-4 font-normal text-gray-900 dark:text-white whitespace-nowrap">
-                    O</td>
+                        {{ $regis->nomor_registrasi }}</td>
                     <td scope="row" class="px-6 py-4 font-normal text-gray-900 dark:text-white whitespace-nowrap">
-                    XL</td>
+                        {{ $regis->nomor_registrasi}}</td>
                     <td scope="row" class="px-6 py-4 font-normal text-gray-900 dark:text-white whitespace-nowrap">
-                    08958094629040</td>
+                        {{ $regis->no_wa }}</td>
                     <td scope="row" class="px-6 py-4 font-normal text-gray-900 dark:text-white whitespace-nowrap">
-                    KTP</td>
+                        {{ $regis->kartu_identitas}}</td>
             </tr>
+            @endforeach
         </tbody>
     </table>
 </div>

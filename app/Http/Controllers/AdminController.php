@@ -24,19 +24,15 @@ class AdminController extends Controller
         return view('admin.admin', ["jumlahPeserta" => $sumDataPeserta, "belumbayarPeserta" => $allDataNoVerified, "sudahbayarPeserta" => $allDataVerified,]);
     }
 
-
-    public function indexSudahBayar()
+    public function indexPeserta()
     {
-        $allDataPeserta = Payment::all();
-        $sumDataPeserta = $allDataPeserta->count();
-        return view('admin.admin', ["sudahbayarPeserta" => $sumDataPeserta]);
-    }
+        $dataPeserta = Registration::all();
 
-    public function indexVerifBayar()
-    {
-        $allDataPeserta = Payment::all();
-        $sumDataPeserta = $allDataPeserta->count();
-        return view('admin.admin', ["verifPeserta" => $sumDataPeserta]);
+        return view(
+            'admin.peserta',
+            ['data' => $dataPeserta]
+
+        );
     }
     /**
      * Show the form for creating a new resource.

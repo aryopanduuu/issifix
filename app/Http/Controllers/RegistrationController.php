@@ -20,16 +20,17 @@ class RegistrationController extends Controller
      */
     public function index()
     {
+
         $registrasi = Registration::all();
-        $registrasi = DB::table('registration')->where('id');
-        return view('admin.components.card_jumlahpeserta', compact('registrasi'));
+        $registrasi = DB::table('registasions')->Paginate();
+
+        return view('admin.peserta', [
+            'data' => $registrasi
+        ]);
     }
 
-    public function JumlahRegis()
-    {
-        $registrasi = Registration::count();
-        return view('admin.components.card_jumlahpeserta', compact('registrasi'));
-    }
+
+
     public function registrasi(Request $req)
     {
         // buat registrasi baru
