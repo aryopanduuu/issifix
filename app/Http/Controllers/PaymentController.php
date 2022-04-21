@@ -17,8 +17,8 @@ class PaymentController extends Controller
 
     public function index()
     {
-        $pembayaran = Payment::all();
-        return view('admin.pembayaran', compact('pembayaran'));
+        $payment = Payment::all();
+        return view('admin.verifikasi', compact('pembayaran'));
     }
 
     public function pembayaranBaru(Request $req, $registrations_id)

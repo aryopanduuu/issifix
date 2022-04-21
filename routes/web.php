@@ -105,9 +105,7 @@ Route::get('/maintenance', function () {
 // });
 
 Route::get('/admin', [AdminController::class, 'index']);
-Route::get('/admin/verifikasi', function () {
-    return view('admin.verifikasi', ['title' => 'Gallery']);
-});
+Route::get('/admin/verifikasi', [AdminController::class, 'indexPayment']);
 Route::get('/admin/peserta', [AdminController::class, 'indexPeserta']);
 Route::get('/admin/tabel', function () {
     return view('admin.tabel', ['title' => 'MLC']);

@@ -34,6 +34,17 @@ class AdminController extends Controller
 
         );
     }
+
+    public function indexPayment()
+    {
+        $dataPayment = Payment::all();
+
+        return view(
+            'admin.verifikasi',
+            ['datap' => $dataPayment]
+
+        );
+    }
     /**
      * Show the form for creating a new resource.
      *
