@@ -4,6 +4,9 @@
             <div class="col-span-2">
                 <h1 class="font-Montserrat font-bold text-base lg:text-3xl text-white">About</h1>
                 <h1 class="font-Montserrat font-bold text-base lg:text-3xl text-white">Madiun Lawu Challenge 2022</h1>
+                <button class="bg-kuning text-biru hover:bg-gray-300 ease-in-out duration-300 lg:text-2xl text-xl px-6 py-2 font-bold rounded-md mt-4">
+                    <a href="/event/mlc/register">Daftar Disini</a>
+                </button>
             </div>
             <div class="">
                 <img src="{{ asset('assets/komlogo.png') }}" alt="" class="w-auto">

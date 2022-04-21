@@ -25,12 +25,9 @@ return new class extends Migration
             $table->string('tim');
             $table->string('kelas');
             $table->string('email');
-            $table->string('provinsi');
-            $table->string('kota');
-            $table->string('kecamatan');
-            $table->string('kelurahan');
-            $table->string('rt_rw');
-            $table->string('jalan');
+            $table->string('kota_asal');
+            $table->string('golongan_darah');
+            $table->string('ukuran_jersey');
             $table->integer('no_wa');
             $table->text('kartu_identitas');
             $table->timestamps();

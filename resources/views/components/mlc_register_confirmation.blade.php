@@ -15,7 +15,7 @@
         </div>
         <div class="grid grid-cols-3 text-white text-xs">
             <div>Alamat</div>
-            <div class="col-span-2">{{$dataInvoice[0]->jalan}}, {{$dataInvoice[0]->rt_rw}}, {{$dataInvoice[0]->kelurahan}}, {{$dataInvoice[0]->kecamatan}}, {{$dataInvoice[0]->kota}}, {{$dataInvoice[0]->provinsi}}</div>
+            <div class="col-span-2">{{$dataInvoice[0]->kota_asal}}</div>
         </div>
         <div class="grid grid-cols-3 text-white text-xs">
             <div>Tim</div>
@@ -32,6 +32,14 @@
         <div class="grid grid-cols-3 text-white text-xs">
             <div>No. Whatsapp</div>
             <div class="col-span-2">{{ $dataInvoice[0]->no_wa }}</div>
+        </div>
+        <div class="grid grid-cols-3 text-white text-xs">
+            <div>Golongan Darah</div>
+            <div class="col-span-2">{{ $dataInvoice[0]->golongan_darah }}</div>
+        </div>
+        <div class="grid grid-cols-3 text-white text-xs">
+            <div>Ukuran jersey</div>
+            <div class="col-span-2">{{ $dataInvoice[0]->ukuran_jersey }}</div>
         </div>
         <div class="flex items-center mt-4">
             <input id="checkbox-1" aria-describedby="checkbox-1" type="checkbox" class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">

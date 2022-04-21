@@ -37,16 +37,13 @@ class RegistrationController extends Controller
         $regis->tempat_lahir = $req->tempat_lahir;
         $regis->tanggal_lahir = $req->tanggal_lahir;
         $regis->jenis_kelamin = $req->jenis_kelamin;
-        $regis->tim = $req->tim;
         $regis->kelas = $req->kelas;
+        $regis->tim = $req->tim;
         $regis->email = $req->email;
-        $regis->provinsi = $req->provinsi;
-        $regis->kota = $req->kota;
-        $regis->kecamatan = $req->kecamatan;
-        $regis->kelurahan = $req->kelurahan;
-        $regis->rt_rw = $req->rt_rw;
-        $regis->jalan = $req->jalan;
+        $regis->kota_asal = $req->kota_asal;
         $regis->no_wa = $req->no_wa;
+        $regis->golongan_darah = $req->golongan_darah;
+        $regis->ukuran_jersey = $req->ukuran_jersey;
         // $req->auth()->id();
         if ($req->hasFile('kartu_identitas')) {
             $fileName = $req->file('kartu_identitas')->getClientOriginalName();

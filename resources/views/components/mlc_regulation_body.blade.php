@@ -1,22 +1,23 @@
-<div class="my-8">
+<div class="my-8 lg:mx-32 mx-4">
     <h1 class="font-Montserrat text-2xl font-bold text-center">PERATURAN UMUM PERLOMBAAN MADIUN - LAWU CHALLENGE 2022</h1>
     
     <div class="ml-8 font-SourceSansPro mt-4">
         <h2 class="font-SourceSansPro font-semibold text-xl mt-8 uppercase">Kategori Lomba</h2>
-        <h3 class="font-semibold mt-2">MEN KOM</h3>
+        <h3 class="font-semibold mt-2">Laki - Laki ( King Of Mountain )</h3>
         <ol class="list-decimal ml-4">
-            <li>Youth 14-16 Tahun</li>
-            <li>Junior 17-24 Tahun</li>
-            <li>Men Elite 25-35 Tahun</li>
-            <li>Master A 36-45 Tahun</li>
-            <li>Master B 46-50 Tahun</li>
-            <li>Master C 51 Up</li>
+            <li>PENDEKAR A 14-16 Tahun</li>
+            <li>PENDEKAR B 17-24 Tahun</li>
+            <li>PENDEKAR C 25-35 Tahun</li>
+            <li>PENDEKAR D 36-45 Tahun</li>
+            <li>PENDEKAR E 46-50 Tahun</li>
+            <li>PENDEKAR F 51 Up</li>
+            <li>FOLDING BIKE/SELI/BROMPTHON NON ATLIT</li>
         </ol>
         <div class="mt-2">
-            <h3 class="font-semibold">WANITA QOM</h3>
+            <h3 class="font-semibold">Perempuan ( Queen Of Mountain )</h3>
             <ol class="list-decimal ml-4">
-                <li>Junior 16-30 Tahun</li>
-                <li>Open 31+</li>
+                <li>PENDEKAR A 16-30 Tahun</li>
+                <li>PENDEKAR B 31+</li>
             </ol>
         </div>
         <div class="mt-2">
