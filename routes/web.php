@@ -19,7 +19,7 @@ use Illuminate\Support\Facades\Route;
 
 // Homepage
 Route::get('/', function () {
-    return view('home',['title' => 'Home']);
+    return view('home', ['title' => 'Home']);
 })->name('page.landing');
 
 Route::middleware('auth')->group(function () {
@@ -38,68 +38,74 @@ Route::middleware(['auth', 'admin'])->group(function () {
 
 // Profile
 Route::get('/profile', function () {
-    return view('profile',['title' => 'Profile']);
+    return view('profile', ['title' => 'Profile']);
 });
 
 // News
 Route::get('/news', function () {
-    return view('news',['title' => 'News']);
+    return view('news', ['title' => 'News']);
 });
 
 Route::get('/news/2', function () {
-    return view('news2',['title' => 'News']);
+    return view('news2', ['title' => 'News']);
 });
 
 // Event
 Route::get('/event', function () {
-    return view('event',['title' => 'Event']);
+    return view('event', ['title' => 'Event']);
 });
 
 // Event MLC
 Route::get('/event/mlc', function () {
-    return view('event.mlc.mlc',['title' => 'MLC']);
+    return view('event.mlc.mlc', ['title' => 'MLC']);
 });
 
 Route::get('/event/mlc/register', function () {
-    return view('event.mlc.registration.registration',['title' => 'MLC']);
+    return view('event.mlc.registration.registration', ['title' => 'MLC']);
 });
 
 
-Route::post('/event/mlc/register/confirmation',[RegistrationController::class, 'registrasi']);
+Route::post('/event/mlc/register/confirmation', [RegistrationController::class, 'registrasi']);
 // Route::post('/event/mlc/register/confirmation', function () {
 //     return view('event.mlc.registration.confirmation');
 // });
 Route::get('/event/mlc/register/success/{nomor_registrasi}', function ($nomor_registrasi) {
-    return view('event.mlc.registration.success', compact('nomor_registrasi'),['title' => 'MLC']);
+    return view('event.mlc.registration.success', compact('nomor_registrasi'), ['title' => 'MLC']);
 });
 
 Route::get('/event/mlc/verifikasipembayaran', function () {
-    return view('event.mlc.verifikasipembayaran.verifikasi',['title' => 'MLC']);
+    return view('event.mlc.verifikasipembayaran.verifikasi', ['title' => 'MLC']);
 });
 
 Route::get('/event/mlc/verifikasipembayaran/success', function () {
-    return view('event.mlc.verifikasipembayaran.success',['title' => 'MLC']);
+    return view('event.mlc.verifikasipembayaran.success', ['title' => 'MLC']);
 });
 
 Route::get('/event/mlc/bookingstatus', function () {
-    return view('event.mlc.bookingstatus.bookingstatus',['title' => 'MLC']);
+    return view('event.mlc.bookingstatus.bookingstatus', ['title' => 'MLC']);
 });
 
 Route::get('/event/mlc/regulation', function () {
-    return view('event.mlc.regulation.regulation',['title' => 'MLC']);
+    return view('event.mlc.regulation.regulation', ['title' => 'MLC']);
 });
 
 // Gallery
 Route::get('/gallery', function () {
-    return view('gallery',['title' => 'Gallery']);
+    return view('gallery', ['title' => 'Gallery']);
 });
 
 // Gallery
 Route::get('/maintenance', function () {
-    return view('maintenance',['title' => 'Gallery']);
+    return view('maintenance', ['title' => 'Gallery']);
 });
 
 // Gallery
-Route::get('/admin', function () {
-    return view('admin.admin');
+// Route::get('/admin', function () {
+//     return view('admin.admin');
+// });
+
+Route::get('/admin', [AdminController::class, 'index']);
+
+Route::get('/admin/tabel', function () {
+    return view('admin.tabel', ['title' => 'MLC']);
 });

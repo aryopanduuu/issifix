@@ -2,7 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Payment;
+use App\Models\Registration;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class AdminController extends Controller
 {
@@ -13,7 +16,27 @@ class AdminController extends Controller
      */
     public function index()
     {
-        //
+        $allDataPeserta = Registration::all();
+        $allDataNoVerified = Payment::where('is_verified', 0)->count();
+        $allDataVerified = Payment::where('is_verified', 1)->count();
+        // $allDataFixVerified = Payment::where('verified_by')->count();
+        $sumDataPeserta = $allDataPeserta->count();
+        return view('admin.admin', ["jumlahPeserta" => $sumDataPeserta, "belumbayarPeserta" => $allDataNoVerified, "sudahbayarPeserta" => $allDataVerified,]);
+    }
+
+
+    public function indexSudahBayar()
+    {
+        $allDataPeserta = Payment::all();
+        $sumDataPeserta = $allDataPeserta->count();
+        return view('admin.admin', ["sudahbayarPeserta" => $sumDataPeserta]);
+    }
+
+    public function indexVerifBayar()
+    {
+        $allDataPeserta = Payment::all();
+        $sumDataPeserta = $allDataPeserta->count();
+        return view('admin.admin', ["verifPeserta" => $sumDataPeserta]);
     }
     /**
      * Show the form for creating a new resource.
@@ -23,12 +46,11 @@ class AdminController extends Controller
 
     public function redirecTo()
     {
-          if (Auth::user()->is_admin) {
+        if (Auth::user()->is_admin) {
             return view('admin.index');  // admin dashboard path
         } else {
             return view('peserta.index');  // member dashboard path
         }
-
     }
     public function authenticate(Request $request)
     {

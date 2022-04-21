@@ -3,8 +3,11 @@
         <div class="flex justify-between space-x-8 align-middle items-center">
             <div class="font-Montserrat">
                 <h1 class="font-bold text-lg">Jumlah Pendaftar MLC 2022</h1>
-                <h2 class="text-sm">123 Peserta</h2>
+                
+                <h2 class="text-sm">{{ $jumlahPeserta ?? "Not Found" }}</h2>
+                
             </div>
+            
             <div>
                 <div>
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-16 right-0" viewBox="0 0 283.999 320.281">
@@ -20,7 +23,7 @@
             <h1>Update pada tanggal 'hari ini'</h1>
         </div>
         <a href="#" class="mt-4 flex items-center space-x-2 nav-toggler" data-target="#peserta">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-4"" viewBox="0 0 29.25 29.25">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4" viewBox="0 0 29.25 29.25">
                 <path id="Icon_ionic-ios-arrow-dropdown-circle" data-name="Icon ionic-ios-arrow-dropdown-circle" d="M3.375,18A14.625,14.625,0,1,0,18,3.375,14.623,14.623,0,0,0,3.375,18ZM23.7,14.948a1.362,1.362,0,0,1,1.92,0,1.34,1.34,0,0,1,.394.956,1.364,1.364,0,0,1-.4.963l-6.63,6.609a1.355,1.355,0,0,1-1.87-.042l-6.729-6.708a1.357,1.357,0,0,1,1.92-1.92l5.7,5.759Z" transform="translate(-3.375 -3.375)" fill="#fff"/>
             </svg>
             <span class="text-xs">informasi lengkap</span>

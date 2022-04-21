@@ -3,7 +3,7 @@
         <div class="flex justify-between space-x-8 align-middle items-center">
             <div class="font-Montserrat">
                 <h1 class="font-bold text-lg">Peserta Terverifikasi MLC</h1>
-                <h2 class="text-sm">123 Peserta</h2>
+                <h2 class="text-sm">{{ $verifPeserta ?? "Not Found" }}</h2>
             </div>
             <div>
                 <div>

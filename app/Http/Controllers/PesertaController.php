@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Peserta;
 use App\Http\Requests\StorePesertaRequest;
 use App\Http\Requests\UpdatePesertaRequest;
+use App\Models\Payment;
 
 class PesertaController extends Controller
 {
@@ -15,7 +16,7 @@ class PesertaController extends Controller
      */
     public function index()
     {
-        //
+        $peserta = Peserta::all();
     }
 
     /**

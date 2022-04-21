@@ -123,7 +123,7 @@ class PaymentController extends Controller
      * @param  \App\Http\Requests\StorePaymentRequest  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(StorePaymentRequest $request)
+    public function store(Request $request)
     {
         //
     }
@@ -157,7 +157,7 @@ class PaymentController extends Controller
      * @param  \App\Models\Payment  $payment
      * @return \Illuminate\Http\Response
      */
-    public function update(UpdatePaymentRequest $request, Payment $payment)
+    public function update(Request $request, Payment $payment)
     {
         //
     }
