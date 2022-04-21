@@ -3,5 +3,5 @@
     @include('admin.components.sidebar')
 @endsection
 @section('content')
-    @include('admin.components.dashboard')
+    @include('admin.components.tabel_peserta')
 @endsection

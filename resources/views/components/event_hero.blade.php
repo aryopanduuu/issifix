@@ -33,9 +33,9 @@
             </div>
             <div class="text-center">
                 <img src="{{ asset('assets/criteriumlogo.png') }}" alt="" class="w-48 mx-auto">
-                <div class="text-biru font-SourceSansPro font-bold text-base mt-4">17 JULI 2022</div>
-                <button class="bg-biru px-6 py-1 rounded-md mt-2 hover:bg-blue-900 ease-in-out duration-200">
-                    <a href="/maintenance" class="text-white font-SourceSansPro font-bold text-base">SUBMIT</a>
+                <div class="text-white font-SourceSansPro font-bold text-base mt-4">17 JULI 2022</div>
+                <button class="bg-slate-700 px-6 py-1 rounded-md mt-2 hover:bg-blue-900 ease-in-out duration-200">
+                    <a href="" class="text-white font-SourceSansPro font-bold text-base">17 JULI 2022</a>
                 </button>
             </div>
         </div>
